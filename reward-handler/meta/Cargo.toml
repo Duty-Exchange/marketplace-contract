@@ -1,0 +1,14 @@
+[package]
+name = "reward-handler-meta"
+version = "0.0.0"
+edition = "2018"
+publish = false
+authors = [ "josh brolin" ]
+
+[dev-dependencies]
+
+[dependencies.reward-handler]
+path = ".."
+
+[dependencies.elrond-wasm-debug]
+version = "0.33.0"
